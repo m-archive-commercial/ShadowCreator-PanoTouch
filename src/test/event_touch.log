@@ -1,0 +1,8 @@
+V/com.markshawn.touchpad.input.screen_mirror.ScreenMirrorActivity: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=861.2823, y[0]=747.30804, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6316470, downTime=6316470, deviceId=2, source=0x5002, displayId=0 }
+V/InputCenter: action: 0, targetPointerSeq: 0, targetPointerId: 0
+V/InputCenter: [added finger] actonId: 0, actionName: ACTION_DOWN, targetPointerSeq: 0, targetPointerId: 0
+V/InputCenter: dispatched motion event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=1541.6062, y[0]=820.40796, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6316478, downTime=6316470, deviceId=0, source=0x1002, displayId=3 }
+    -----
+V/com.markshawn.touchpad.input.screen_mirror.ScreenMirrorActivity: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=861.2823, y[0]=747.30804, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6316577, downTime=6316470, deviceId=2, source=0x5002, displayId=0 }
+V/InputCenter: dispatched motion event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=1541.6062, y[0]=820.40796, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6316580, downTime=6316470, deviceId=0, source=0x1002, displayId=3 }
+    -----

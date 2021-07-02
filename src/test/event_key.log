@@ -1,0 +1,9 @@
+V/GamepadService: handled key code: 303, 0, 0
+V/InputCenter: action: 0, targetPointerSeq: 0, targetPointerId: 303
+V/TouchpadBaseActivity: [onKeyDown] keyCode: 22, keyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=304, metaState=0, flags=0x8, repeatCount=0, eventTime=6277437, downTime=6277437, deviceId=3, source=0x501, displayId=0 }
+V/InputCenter: [added finger] actonId: 0, actionName: ACTION_DOWN, targetPointerSeq: 0, targetPointerId: 303
+V/InputCenter: dispatched motion event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=303, x[0]=1181.0, y[0]=967.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6277443, downTime=6277439, deviceId=0, source=0x1002, displayId=3 }
+    -----
+V/GamepadService: handled key code: 303, 1, 0
+V/InputCenter: dispatched motion event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=303, x[0]=1181.0, y[0]=967.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6277592, downTime=6277439, deviceId=0, source=0x1002, displayId=3 }
+    -----

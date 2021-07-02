@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- MotionEvent的id范围0-31 -->
+<map>
+    <keyL id="31" code="302" icon="key_icon_left"/>
+    <keyR id="30" code="303" icon="key_icon_right"/>
+    <keyU id="29" code="300" icon="key_icon_up"/>
+    <keyD id="28" code="301" icon="key_icon_down"/>
+    <keyA id="27" code="306" icon="key_icon_a"/>
+    <keyB id="26" code="308" icon="key_icon_b"/>
+    <keyX id="25" code="307" icon="key_icon_x"/>
+    <keyY id="24" code="305" icon="key_icon_y"/>
+    <keyLT id="21" code="304" icon="key_icon_left"/>
+    <keyRT id="19" code="309" icon="key_icon_left"/>
+    <keyLB id="20" icon="key_icon_left"/>
+    <keyJL id="23" icon="key_icon_joystick_left"/>
+    <keyJR id="22" icon="key_icon_joystick"/>
+    <keyRB id="18" icon="key_icon_left"/>
+</map>

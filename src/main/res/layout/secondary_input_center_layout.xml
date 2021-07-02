@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+
+
+        <variable
+            name="trackBall1"
+            type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+
+        <variable
+            name="trackBall2"
+            type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+
+        <variable
+            name="trackBall3"
+            type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+
+        <variable
+            name="trackBall4"
+            type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+
+        <variable
+            name="trackBall5"
+            type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- track ball -->
+        <include
+            layout="@layout/secondary_track_ball_unit"
+            bind:trackBall="@{trackBall1}" />
+
+        <include
+            layout="@layout/secondary_track_ball_unit"
+            bind:trackBall="@{trackBall2}" />
+
+        <include
+            layout="@layout/secondary_track_ball_unit"
+            bind:trackBall="@{trackBall3}" />
+
+        <include
+            layout="@layout/secondary_track_ball_unit"
+            bind:trackBall="@{trackBall4}" />
+
+        <include
+            layout="@layout/secondary_track_ball_unit"
+            bind:trackBall="@{trackBall5}" />
+
+    </RelativeLayout>
+</layout>

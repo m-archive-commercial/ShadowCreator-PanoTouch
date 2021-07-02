@@ -1,0 +1,8 @@
+Executable : /Users/mark/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86
+native_pano_touch_honghu_gamepad
+native_pano_touch_mouse_driver
+jvmArgs : 
+

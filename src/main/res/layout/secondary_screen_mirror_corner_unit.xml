@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="corner"
+            type="com.luci.pano_touch.screen_mirror.CornerBean" />
+
+    </data>
+
+    <!--        android:backgroundTint="#990000"-->
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+
+    <!--        android:layout_width="100px"-->
+    <!--        android:layout_height="100px"-->
+    <!--        offset="@{true}"-->
+    <!--        x="@{corner.x}"-->
+    <!--        y="@{corner.y}"-->
+    <!--        setOnTouchListener="@{corner.mOnTouchListener}"-->
+    <!--        android:alpha="0.1"-->
+    <!--        android:background="@{corner.bgResourceId}"-->
+    <!--        />-->
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:posOffset="@{true}"
+        android:posX="@{corner.x}"
+        android:posY="@{corner.y}"
+        android:setBgImage="@{corner.bgResourceId}"
+        android:setOnTouchListener="@{corner.mOnTouchListener}" />
+    <!--        android:background="@drawable/frame_left_bottom"-->
+    <!--            android:alpha="0.1"-->
+</layout>

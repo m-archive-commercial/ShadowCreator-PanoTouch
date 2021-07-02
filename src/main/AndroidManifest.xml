@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.luci.pano_touch"
+    android:sharedUserId="android.uid.system">
+
+    <!-- usb host mode -->
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+    <!--    获取副屏弹窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!--    获取状态栏权限-->
+    <uses-permission
+        android:name="android.permission.STATUS_BAR"
+        tools:ignore="ProtectedPermissions" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mouse"
+        android:keepScreenOn="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <!--   通知里直接切换每个activity，we need single task in order to switch activities in application -->
+        <activity
+            android:name="com.luci.pano_touch.touchpad.TouchpadActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+
+        <!--        控制副屏技能区，主屏启动 -->
+        <activity
+            android:name="com.luci.pano_touch.screen_mirror.ScreenMirrorActivity"
+            android:launchMode="singleTask"
+
+            android:noHistory="true" />
+
+        <!--        悬浮在副屏的主屏映射区域框 -->
+        <service android:name="com.luci.pano_touch.screen_mirror.ScreenMirrorService" />
+
+        <!--        悬浮在副屏的摇杆浮窗 -->
+        <service android:name="com.luci.pano_touch.honghu_gamepad.HonghuKeysService" />
+
+
+        <receiver
+            android:name="com.luci.pano_touch.ReceiverStatic"
+            android:exported="true">
+
+            <!-- -1000 到 1000，优先级 -->
+            <intent-filter android:priority="1000">
+                <!--                开机-->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!--                USB插拔-->
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+                <!--                自定义双击-->
+                <action android:name="MULTI_PRESS_POWER_SWITCH_MODE_BETWEEN_POINTER_AND_GAMEPAD" />
+                <!--                自定义三击-->
+                <action android:name="MULTI_PRESS_POWER_SWITCH_MODE_BETWEEN_DESKTOP_AND_MOBILE" />
+            </intent-filter>
+
+            <!-- filter usb -->
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+                android:resource="@xml/device_filter" />
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.luci.pano_touch.screen_mirror.CornerBean" />
+
+
+        <variable
+            name="LT"
+            type="com.luci.pano_touch.screen_mirror.CornerBean" />
+
+        <variable
+            name="LB"
+            type="com.luci.pano_touch.screen_mirror.CornerBean" />
+
+        <variable
+            name="RT"
+            type="com.luci.pano_touch.screen_mirror.CornerBean" />
+
+        <variable
+            name="RB"
+            type="com.luci.pano_touch.screen_mirror.CornerBean" />
+
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.AppCompat.Translucent"
+        tools:context="com.luci.pano_touch.screen_mirror.ScreenMirrorService">
+
+
+        <!-- corner -->
+        <include
+            layout="@layout/secondary_screen_mirror_corner_unit"
+            bind:corner="@{LT}" />
+
+        <include
+            layout="@layout/secondary_screen_mirror_corner_unit"
+            bind:corner="@{LB}" />
+
+        <include
+            layout="@layout/secondary_screen_mirror_corner_unit"
+            bind:corner="@{RT}" />
+
+        <include
+            layout="@layout/secondary_screen_mirror_corner_unit"
+            bind:corner="@{RB}" />
+
+        <!-- operations -->
+        <Button
+            android:id="@+id/btnSaveMirror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#006600"
+            android:text="更新映射"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</layout>

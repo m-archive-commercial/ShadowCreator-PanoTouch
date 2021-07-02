@@ -1,0 +1,3 @@
+type=1400 audit(0.0:12278): avc: denied { write } for name="uinput" dev="tmpfs" ino=30739 scontext=u:r:system_app:s0 tcontext=u:object_r:uhid_device:s0 tclass=chr_file permissive=1
+    type=1400 audit(0.0:12279): avc: denied { open } for path="/dev/uinput" dev="tmpfs" ino=30739 scontext=u:r:system_app:s0 tcontext=u:object_r:uhid_device:s0 tclass=chr_file permissive=1
+    type=1400 audit(0.0:12280): avc: denied { ioctl } for path="/dev/uinput" dev="tmpfs" ino=30739 ioctlcmd=0x5564 scontext=u:r:system_app:s0 tcontext=u:object_r:uhid_device:s0 tclass=chr_file permissive=1

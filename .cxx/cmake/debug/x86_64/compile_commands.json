@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86_64",
+  "command": "/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --gcc-toolchain=/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_pano_touch_honghu_gamepad_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_pano_touch_honghu_gamepad.dir/honghu_gamepad/native_honghu_gamepad.cpp.o -c /Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/honghu_gamepad/native_honghu_gamepad.cpp",
+  "file": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/honghu_gamepad/native_honghu_gamepad.cpp"
+},
+
+{
+  "directory": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86_64",
+  "command": "/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --gcc-toolchain=/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_pano_touch_mouse_driver_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_pano_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/native_uinput_mouse_driver.cpp.o -c /Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/uinput_touchpad/mouse_driver/native_uinput_mouse_driver.cpp",
+  "file": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/uinput_touchpad/mouse_driver/native_uinput_mouse_driver.cpp"
+},
+
+{
+  "directory": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86_64",
+  "command": "/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --gcc-toolchain=/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/mark/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_pano_touch_mouse_driver_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_pano_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/mouse_driver.cpp.o -c /Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/uinput_touchpad/mouse_driver/mouse_driver.cpp",
+  "file": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/uinput_touchpad/mouse_driver/mouse_driver.cpp"
+}
+]

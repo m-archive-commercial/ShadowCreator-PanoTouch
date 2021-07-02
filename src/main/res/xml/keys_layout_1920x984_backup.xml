@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<!--    <int name="keyL_x" value="1050" />-->
+<!--    <int name="keyL_y" value="916" />-->
+    <int name="keyL_x" value="1140" />
+    <int name="keyL_y" value="964" />
+
+<!--    <int name="keyR_x" value="1210" />-->
+    <int name="keyR_x" value="1260" />
+<!--    <int name="keyR_y" value="916" />-->
+    <int name="keyR_y" value="967" />
+<!---->
+<!--    <int name="keyU_x" value="130" />-->
+    <int name="keyU_x" value="203" />
+<!--    <int name="keyU_y" value="372" />-->
+    <int name="keyU_y" value="432" />
+<!---->
+<!--    <int name="keyD_x" value="130" />-->
+    <int name="keyD_x" value="198" />
+<!--    <int name="keyD_y" value="500" />-->
+    <int name="keyD_y" value="552" />
+<!---->
+<!--    <int name="keyX_x" value="1364" />-->
+    <int name="keyX_x" value="1464" />
+<!--    <int name="keyX_y" value="645" />-->
+    <int name="keyX_y" value="745" />
+<!---->
+<!--    <int name="keyY_x" value="1570" />-->
+    <int name="keyY_x" value="1670" />
+<!--    <int name="keyY_y" value="530" />-->
+    <int name="keyY_y" value="630" />
+<!---->
+<!--    <int name="keyJL_x" value="230" />-->
+    <int name="keyJL_x" value="300" />
+<!--    <int name="keyJL_y" value="800" />-->
+    <int name="keyJL_y" value="800" />
+<!---->
+<!--    <int name="keyJR_x" value="1450" />-->
+    <int name="keyJR_x" value="1497" />
+<!--    <int name="keyJR_y" value="250" />-->
+    <int name="keyJR_y" value="335" />
+<!---->
+<!--        以下是小按键版本 -->
+<!--        <int name="keyA_x" value="1343" />-->
+    <!--    <int name="keyA_y" value="944" />-->
+
+    <!--    以下是大按键版本 -->
+    <int name="keyA_x" value="1464" />
+    <int name="keyA_y" value="1000" />
+
+    <int name="keyB_x" value="1672" />
+    <int name="keyB_y" value="922" />
+
+    <boolean name="keyR_visible" value="true" />
+    <boolean name="keyL_visible" value="true" />
+    <boolean name="keyU_visible" value="true" />
+    <boolean name="keyJL_visible" value="true" />
+
+<!--    <int name="keyJL_x" value="270" />-->
+<!--    <int name="keyJL_y" value="860" />-->
+    <boolean name="keyY_visible" value="true" />
+    <boolean name="keyX_visible" value="true" />
+    <boolean name="keyB_visible" value="true" />
+    <boolean name="keyA_visible" value="true" />
+    <boolean name="keyD_visible" value="true" />
+    <boolean name="keyJR_visible" value="true" />
+</map>

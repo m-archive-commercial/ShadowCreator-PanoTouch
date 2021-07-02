@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="key"
+            type="com.luci.pano_touch.honghu_gamepad.HonghuKeyBean" />
+    </data>
+
+    <!--
+    使用backgroundTint修改颜色： https://stackoverflow.com/a/55088415/9422455
+    -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:alpha="0.5"
+        android:backgroundTint="#cccccc"
+        android:listen_touch="@{key.onTouchListener}"
+        android:posOffset="@{true}"
+        android:posX="@{key.x}"
+        android:posY="@{key.y}"
+        android:set_icon="@{key.icon}" />
+    <!--        app:set_x="@{key.x}"-->
+    <!--        app:set_y="@{key.y}"-->
+</layout>

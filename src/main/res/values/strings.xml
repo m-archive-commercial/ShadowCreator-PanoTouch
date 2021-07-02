@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pano Touch</string>
+    <string name="intro">
+        当连接LUCI眼镜后，您可以从通知中启用该应用，以操作眼镜中的鼠标
+    </string>
+    <string name="leftClick">左击</string>
+    <string name="rightClick">右击</string>
+    <string name="switchToMobileMode">切换为手机模式</string>
+    <string name="switchedMobileMode">已切换为手机模式</string>
+    <string name="switchToDesktopMode">切换为桌面模式</string>
+    <string name="switchedDesktopMode">已切换为桌面模式</string>
+</resources>

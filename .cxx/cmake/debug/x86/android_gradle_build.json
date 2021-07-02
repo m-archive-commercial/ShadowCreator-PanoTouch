@@ -1,0 +1,53 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mark/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mark/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native_pano_touch_mouse_driver-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/mark/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86",
+        "native_pano_touch_mouse_driver"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "native_pano_touch_mouse_driver",
+      "output": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86/libnative_pano_touch_mouse_driver.so",
+      "runtimeFiles": []
+    },
+    "native_pano_touch_honghu_gamepad-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/mark/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/x86",
+        "native_pano_touch_honghu_gamepad"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "native_pano_touch_honghu_gamepad",
+      "output": "/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86/libnative_pano_touch_honghu_gamepad.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

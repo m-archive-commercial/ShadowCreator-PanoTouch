@@ -1,0 +1,4 @@
+/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native_pano_touch_honghu_gamepad.dir
+/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native_pano_touch_mouse_driver.dir

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int        name="keyL_x" value="644" />
+    <int        name="keyL_y" value="1011" />
+    <boolean    name="keyR_visible" value="true" />
+    <int        name="keyR_x" value="735" />
+    <boolean    name="keyL_visible" value="true" />
+    <int name="keyR_y" value="1011" />
+    <int name="keyU_y" value="469" />
+    <int name="keyU_x" value="119" />
+    <int name="keyX_x" value="917" />
+    <int name="keyY_y" value="799" />
+    <boolean name="keyU_visible" value="true" />
+    <int name="keyX_y" value="872" />
+    <int name="keyY_x" value="1041" />
+    <boolean name="keyJL_visible" value="true" />
+    <int name="keyJL_x" value="205" />
+    <int name="keyJL_y" value="932" />
+    <boolean name="keyY_visible" value="true" />
+    <int name="keyJR_y" value="344" />
+    <int name="keyJR_x" value="875" />
+    <boolean name="keyX_visible" value="true" />
+    <boolean name="keyB_visible" value="true" />
+    <boolean name="keyA_visible" value="true" />
+    <boolean name="keyD_visible" value="true" />
+    <int name="keyA_x" value="840" />
+    <int name="keyB_x" value="1042" />
+    <int name="keyA_y" value="997" />
+    <int name="keyD_x" value="117" />
+    <boolean name="keyJR_visible" value="true" />
+    <int name="keyB_y" value="983" />
+    <int name="keyD_y" value="547" />
+</map>

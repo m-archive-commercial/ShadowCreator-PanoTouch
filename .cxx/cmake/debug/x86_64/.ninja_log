@@ -1,0 +1,17 @@
+# ninja log v5
+1	586	1625123809	CMakeFiles/native_luci_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/native_uinput_mouse_driver.cpp.o	316fce9052fb7856
+1	598	1625123809	CMakeFiles/native_luci_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/mouse_driver.cpp.o	c038ad0b2cd7a25c
+599	685	1625123809	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_luci_touch_mouse_driver.so	587080b3ecb3e24a
+1	1333	1625123810	CMakeFiles/native_luci_touch_honghu_gamepad.dir/honghu_gamepad/native_honghu_gamepad.cpp.o	7b224d77eac1f491
+1333	1425	1625123810	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_luci_touch_honghu_gamepad.so	5ed38ded2f5cc680
+3	819	1625124168	CMakeFiles/native_pano_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/native_uinput_mouse_driver.cpp.o	79b873a2fe985a9f
+4	832	1625124168	CMakeFiles/native_pano_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/mouse_driver.cpp.o	a3b887f5532d21d0
+832	934	1625124168	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_pano_touch_mouse_driver.so	40a67ebc264df3df
+1	1688	1625124169	CMakeFiles/native_pano_touch_honghu_gamepad.dir/honghu_gamepad/native_honghu_gamepad.cpp.o	5e93637da6af5ff8
+1688	1747	1625124169	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_pano_touch_honghu_gamepad.so	fc40b42d6e0a8240
+2	338	1625125056	CMakeFiles/native_pano_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/native_uinput_mouse_driver.cpp.o	79b873a2fe985a9f
+338	424	1625125056	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_pano_touch_mouse_driver.so	40a67ebc264df3df
+2	789	1625125057	CMakeFiles/native_pano_touch_honghu_gamepad.dir/honghu_gamepad/native_honghu_gamepad.cpp.o	5e93637da6af5ff8
+789	837	1625125057	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_pano_touch_honghu_gamepad.so	fc40b42d6e0a8240
+1	336	1625189842	CMakeFiles/native_pano_touch_mouse_driver.dir/uinput_touchpad/mouse_driver/mouse_driver.cpp.o	a3b887f5532d21d0
+336	428	1625189842	/Users/mark/AndroidStudioProjects/ShadowCreator/PanoTouch/build/intermediates/cmake/debug/obj/x86_64/libnative_pano_touch_mouse_driver.so	40a67ebc264df3df

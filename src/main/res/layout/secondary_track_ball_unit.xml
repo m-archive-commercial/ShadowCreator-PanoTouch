@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="trackBall"
+            type="com.luci.pano_touch.screen_mirror.TrackBallBean" />
+    </data>
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:posOffset="@{true}"
+        android:posX="@{trackBall.x}"
+        android:posY="@{trackBall.y}"
+        android:setBgImage="@{trackBall.bgResourceId}"
+        android:set_visible="@{trackBall.vis}" />
+</layout>
